@@ -1,3 +1,6 @@
+.container {
+    display: flex;
+}
 .shiny-box {
     width: 320px;
     height: 280px;
