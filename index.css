@@ -1,5 +1,12 @@
 .container {
-    display: flex;
+    /* Flexes all elements on one row */
+    display: flex; 
+    /* Determines the direction of flexing */
+    /* flex-direction: column; */
+    /* Fits elements on separate rows */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
 }
 .shiny-box {
     width: 320px;
