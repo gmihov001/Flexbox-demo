@@ -10,7 +10,7 @@
     width: 213px;
     height: 173px;
     border-radius: 20px;
-    background: #19f000;
+    
     border: 1px solid black;
     position: absolute;
     left: 2px;
@@ -26,6 +26,25 @@
     left: 4px;
     top: 4px;
 }
-.container div:nth-child(2n+0) {
+.container div:nth-child(1) {
+    background: #19f000;
+}
+.container div:nth-child(2) {
+    background: yellow;
+}
+.container div:nth-child(3) {
+    background: royalblue;
+}
+.container div:nth-child(4) {
+    background: orange;
+}
+.container div:nth-child(5) {
     background: red;
 }
+.container div:nth-child(6) {
+    background: cyan;
+}
+.container div:nth-child(7) {
+    background:fuchsia;
+}
+
