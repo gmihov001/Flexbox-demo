@@ -6,6 +6,7 @@
     /* Fits elements on separate rows */
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 
 }
 .shiny-box {
@@ -40,12 +41,14 @@
 }
 .container div:nth-child(2) {
     background: yellow;
+    /* height: 200px !important; */
 }
 .container div:nth-child(3) {
     background: royalblue;
+    /* height: 400px !important; */
 }
 .container div:nth-child(4) {
-    background: orange;
+    background: orangered;
 }
 .container div:nth-child(5) {
     background: red;
