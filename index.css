@@ -1,12 +1,12 @@
 .container {
     /* Flexes all elements on one row */
-    display: flex; 
+    display: none; 
     /* Determines the direction of flexing */
     /* flex-direction: column; */
     /* Fits elements on separate rows */
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center; */
 
 }
 .shiny-box {
@@ -55,12 +55,16 @@
 }
 .container div:nth-child(6) {
     background: cyan;
+    flex-grow: 3;
 }
 .container div:nth-child(7) {
     background: fuchsia;
+    flex-grow: 1;
 }
 .container div:nth-child(8) {
     background: purple;
+    flex-grow: 2;
+
 }
 
 
