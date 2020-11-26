@@ -1,15 +1,15 @@
 .container {
     /* Flexes all elements on one row */
-    display: none; 
+    display: flex; 
     /* Determines the direction of flexing */
-    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
     /* Fits elements on separate rows */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     /* align-items: center; */
 
 }
-.shiny-box {
+.shiny-box {                      
     width: 320px;
     height: 280px;
     border-radius: 20px;
@@ -36,7 +36,7 @@
     left: 4px;
     top: 4px;
 }
-.container div:nth-child(1) {
+.container div:nth-child(1) { 
     background: #19f000;
 }
 .container div:nth-child(2) {
@@ -55,16 +55,19 @@
 }
 .container div:nth-child(6) {
     background: cyan;
-    flex-grow: 3;
+    flex-shrink: 3;
 }
 .container div:nth-child(7) {
     background: fuchsia;
-    flex-grow: 1;
+    flex-shrink: 1;
 }
 .container div:nth-child(8) {
     background: purple;
-    flex-grow: 2;
+    flex-shrink: 2;
 
 }
+
+
+
 
 
