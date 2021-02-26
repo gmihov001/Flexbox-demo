@@ -4,7 +4,7 @@
     /* Determines the direction of flexing */
     /* flex-direction: column-reverse; */
     /* Fits elements on separate rows */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
     /* align-items: center; */
 
@@ -55,15 +55,15 @@
 }
 .container div:nth-child(6) {
     background: cyan;
-    flex-shrink: 3;
+    /* flex-grow: 1; */
 }
 .container div:nth-child(7) {
     background: fuchsia;
-    flex-shrink: 1;
+    /* flex-grow: 1; */
 }
 .container div:nth-child(8) {
     background: purple;
-    flex-shrink: 2;
+    /* flex-grow: 1; */
 
 }
 
