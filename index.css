@@ -1,14 +1,16 @@
 .container {
     /* Flexes all elements on one row */
-    /* display: flex;  */
+    display: flex; 
     /* Determines the direction of flexing */
     /* flex-direction: column-reverse; */
     /* Fits elements on separate rows */
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    /* height: 600px; */
     /* align-items: center; */
 
 }
+
 .shiny-box {                      
     width: 320px;
     height: 280px;
@@ -16,6 +18,7 @@
     background: linear-gradient(to bottom, #393939 0%, #151515 100%);
     position: relative;
 }
+
 .shiny-box:before {
     content: '';
     width: 313px;
@@ -26,6 +29,7 @@
     left: 2px;
     top: 2px;
 }
+
 .shiny-box:after {
     content: '';
     width: 312px;
@@ -36,34 +40,40 @@
     left: 4px;
     top: 4px;
 }
-.container div:nth-child(1) { 
+
+/* .container div:nth-child(1) { 
     background: #19f000;
-}
+} */
+
 .container div:nth-child(2) {
     background: yellow;
     /* height: 200px !important; */
 }
+
 .container div:nth-child(3) {
     background: royalblue;
     /* height: 400px !important; */
 }
+
 .container div:nth-child(4) {
     background: orangered;
 }
+
 .container div:nth-child(5) {
     background: red;
 }
+
 .container div:nth-child(6) {
     background: cyan;
-    flex-grow: 0;
+    /* flex-grow: 10; */
 }
 .container div:nth-child(7) {
     background: fuchsia;
-    flex-grow: 0;
+    /* flex-grow: 20; */
 }
 .container div:nth-child(8) {
     background: purple;
-    flex-grow: 0;
+    /* flex-grow: 30; */
 
 }
 
