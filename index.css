@@ -5,10 +5,9 @@
     /* flex-direction: column-reverse; */
     /* Fits elements on separate rows */
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
     /* height: 600px; */
     /* align-items: center; */
-
 }
 
 .shiny-box {                      
@@ -41,9 +40,9 @@
     top: 4px;
 }
 
-/* .container div:nth-child(1) { 
+.container div:nth-child(1) { 
     background: #19f000;
-} */
+}
 
 .container div:nth-child(2) {
     background: yellow;
@@ -74,7 +73,6 @@
 .container div:nth-child(8) {
     background: purple;
     /* flex-grow: 30; */
-
 }
 
 
