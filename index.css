@@ -1,11 +1,11 @@
 .container {
     /* Flexes all elements on one row */
-    display: flex; 
+    /* display: flex;  */
     /* Determines the direction of flexing */
     /* flex-direction: column-reverse; */
     /* Fits elements on separate rows */
-    flex-wrap: wrap;
-    justify-content: left;
+    /* flex-wrap: wrap; */
+    /* justify-content: between; */
     /* height: 600px; */
     /* align-items: center; */
 }
